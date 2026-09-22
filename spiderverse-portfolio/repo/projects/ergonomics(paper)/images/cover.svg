@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <pattern id="ergo-halftone" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="2" fill="rgba(11, 9, 20, 0.08)" />
+    </pattern>
+    <linearGradient id="ergo-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff8e7"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0f7fa"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#ergo-grad)"/>
+  <rect width="800" height="500" fill="url(#ergo-halftone)"/>
+
+  <!-- Top Accent Bar -->
+  <rect x="0" y="0" width="800" height="12" fill="#ff0077"/>
+  <rect x="0" y="12" width="800" height="6" fill="#00e5ff"/>
+
+  <!-- Outer Comic Border -->
+  <rect x="18" y="28" width="764" height="444" fill="none" stroke="#0b0914" stroke-width="4"/>
+
+  <!-- Left Technical Grid / Seat Diagram -->
+  <g transform="translate(48, 70)">
+    <!-- Transit Bus Silhouette Block -->
+    <rect x="0" y="0" width="320" height="340" fill="#ffffff" stroke="#0b0914" stroke-width="3" filter="drop-shadow(6px 6px 0px #0b0914)"/>
+    
+    <!-- Header Tag -->
+    <rect x="0" y="0" width="320" height="36" fill="#0b0914"/>
+    <text x="16" y="24" fill="#ffea00" font-family="'Space Mono', monospace" font-size="13" font-weight="bold" letter-spacing="1">FIELD STUDY // TSRTC BUS</text>
+
+    <!-- Bus Cabin Wireframe Grid -->
+    <line x1="20" y1="60" x2="300" y2="60" stroke="#0b0914" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <line x1="20" y1="130" x2="300" y2="130" stroke="#0b0914" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <line x1="20" y1="200" x2="300" y2="200" stroke="#0b0914" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <line x1="20" y1="270" x2="300" y2="270" stroke="#0b0914" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+    <!-- Biomechanics Ergonomic Stick Figure / Posture Angle -->
+    <!-- Seat -->
+    <path d="M 80 250 L 160 250 L 170 140" fill="none" stroke="#2442ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Driver Torso -->
+    <circle cx="160" cy="115" r="16" fill="#ff0077" stroke="#0b0914" stroke-width="2.5"/>
+    <line x1="160" y1="131" x2="140" y2="220" stroke="#0b0914" stroke-width="5" stroke-linecap="round"/>
+    <!-- Thigh & Leg -->
+    <line x1="140" y1="220" x2="210" y2="230" stroke="#0b0914" stroke-width="5" stroke-linecap="round"/>
+    <line x1="210" y1="230" x2="225" y2="295" stroke="#0b0914" stroke-width="5" stroke-linecap="round"/>
+    <!-- Arm Reach to Steering -->
+    <line x1="155" y1="150" x2="220" y2="175" stroke="#ff0077" stroke-width="4" stroke-linecap="round"/>
+    <!-- Steering Wheel -->
+    <ellipse cx="235" cy="180" rx="14" ry="32" fill="none" stroke="#0b0914" stroke-width="4" transform="rotate(-20 235 180)"/>
+
+    <!-- Angle Indicator -->
+    <path d="M 140 180 A 30 30 0 0 1 180 180" fill="none" stroke="#ff4d00" stroke-width="2.5" stroke-dasharray="3,3"/>
+    <text x="186" y="176" fill="#ff4d00" font-family="'Space Mono', monospace" font-size="11" font-weight="bold">θ = 118°</text>
+
+    <!-- Posture Alert Badge -->
+    <rect x="20" y="295" width="280" height="32" fill="#ffea00" stroke="#0b0914" stroke-width="2"/>
+    <text x="160" y="316" fill="#0b0914" font-family="'Space Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">⚠ NECK &amp; LUMBAR HYPEREXTENSION</text>
+  </g>
+
+  <!-- Right Details & Metrics Panel -->
+  <g transform="translate(400, 70)">
+    <!-- Top Category Pill -->
+    <rect x="0" y="0" width="210" height="28" fill="#00e5ff" stroke="#0b0914" stroke-width="2.5" filter="drop-shadow(3px 3px 0px #0b0914)"/>
+    <text x="12" y="19" fill="#0b0914" font-family="'Space Mono', monospace" font-size="11" font-weight="bold" letter-spacing="1">FIELD RESEARCH // 2025</text>
+
+    <!-- Main Heading -->
+    <text x="0" y="70" fill="#0b0914" font-family="'Cabinet Grotesk', Impact, sans-serif" font-size="34" font-weight="900" letter-spacing="-0.5">PUBLIC TRANSPORT</text>
+    <text x="0" y="106" fill="#ff0077" font-family="'Cabinet Grotesk', Impact, sans-serif" font-size="34" font-weight="900" letter-spacing="-0.5">ERGONOMICS</text>
+
+    <!-- Metrics Cards Grid -->
+    <g transform="translate(0, 130)">
+      <!-- REBA Score Card -->
+      <rect x="0" y="0" width="165" height="95" fill="#ffffff" stroke="#0b0914" stroke-width="2.5" filter="drop-shadow(4px 4px 0px #0b0914)"/>
+      <rect x="0" y="0" width="165" height="22" fill="#ff2a2a"/>
+      <text x="82" y="16" fill="#ffffff" font-family="'Space Mono', monospace" font-size="10" font-weight="bold" text-anchor="middle">REBA RISK SCORE</text>
+      <text x="82" y="62" fill="#0b0914" font-family="'Cabinet Grotesk', Impact, sans-serif" font-size="36" font-weight="900" text-anchor="middle">11.75</text>
+      <text x="82" y="84" fill="#ff2a2a" font-family="'Space Mono', monospace" font-size="10" font-weight="bold" text-anchor="middle">VERY HIGH RISK</text>
+
+      <!-- Anthropometric Card -->
+      <rect x="180" y="0" width="165" height="95" fill="#ffffff" stroke="#0b0914" stroke-width="2.5" filter="drop-shadow(4px 4px 0px #0b0914)"/>
+      <rect x="180" y="0" width="165" height="22" fill="#2442ff"/>
+      <text x="262" y="16" fill="#ffffff" font-family="'Space Mono', monospace" font-size="10" font-weight="bold" text-anchor="middle">SAMPLE COHORT</text>
+      <text x="262" y="62" fill="#0b0914" font-family="'Cabinet Grotesk', Impact, sans-serif" font-size="36" font-weight="900" text-anchor="middle">5th–95th</text>
+      <text x="262" y="84" fill="#2442ff" font-family="'Space Mono', monospace" font-size="10" font-weight="bold" text-anchor="middle">PERCENTILE FIT</text>
+    </g>
+
+    <!-- Bottom Findings Strip -->
+    <g transform="translate(0, 250)">
+      <rect x="0" y="0" width="345" height="75" fill="#0b0914" stroke="#0b0914" stroke-width="2.5" filter="drop-shadow(4px 4px 0px #ff0077)"/>
+      <text x="16" y="26" fill="#00ff88" font-family="'Space Mono', monospace" font-size="11" font-weight="bold">✓ 120+ Commuter Journeys Analyzed</text>
+      <text x="16" y="46" fill="#ffffff" font-family="'Space Mono', monospace" font-size="11" font-weight="bold">✓ Ingress / Egress Bottleneck Redesign</text>
+      <text x="16" y="64" fill="#ffea00" font-family="'Space Mono', monospace" font-size="11" font-weight="bold">✓ Comprehensive Paper &amp; Spatial Audit</text>
+    </g>
+  </g>
+</svg>

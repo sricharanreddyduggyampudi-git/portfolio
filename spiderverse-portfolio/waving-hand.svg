@@ -1,0 +1,51 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" fill="none">
+  <!-- Motion Wave Lines (Left) -->
+  <path d="M 85 125 C 95 90 118 68 145 52" stroke="#000000" stroke-width="11" stroke-linecap="round" />
+  <path d="M 112 135 C 122 108 140 90 162 78" stroke="#000000" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Motion Wave Lines (Right) -->
+  <path d="M 272 150 C 292 180 288 215 272 240" stroke="#000000" stroke-width="11" stroke-linecap="round" />
+  <path d="M 292 182 C 308 208 304 235 292 255" stroke="#000000" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Solid Hand Fill -->
+  <path d="
+    M 78 285
+    C 72 255 50 185 48 160
+    C 46 136 64 128 78 140
+    C 94 154 104 185 115 205
+    C 122 180 134 110 142 94
+    C 148 82 162 82 170 94
+    C 174 102 180 84 192 84
+    C 204 84 212 94 208 112
+    C 200 148 186 195 178 210
+    C 184 192 205 130 216 116
+    C 224 106 238 108 244 120
+    C 250 132 256 142 266 154
+    C 278 168 274 185 262 202
+    C 246 226 226 280 215 310
+    C 200 338 174 350 142 350
+    C 114 350 92 336 78 322
+    C 66 312 60 298 78 285 Z"
+    fill="#FCD21C" />
+
+  <!-- Main Hand Outline -->
+  <!-- Thumb -->
+  <path d="M 78 285 C 72 255 50 185 48 160 C 46 136 64 128 78 140 C 94 154 104 185 115 205"
+        stroke="#000000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Pair 1: Index + Middle Finger -->
+  <path d="M 115 205 C 122 180 134 110 142 94 C 148 82 162 82 170 94 C 174 102 180 84 192 84 C 204 84 212 94 208 112 C 200 148 186 195 178 210"
+        stroke="#000000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Deep 'V' Valley & Pair 2: Ring + Little Finger -->
+  <path d="M 178 210 C 184 192 205 130 216 116 C 224 106 238 108 244 120 C 250 132 256 142 266 154 C 278 168 274 185 262 202 C 246 226 226 280 215 310"
+        stroke="#000000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Wrist Base / Bottom Cuff -->
+  <path d="M 215 310 C 200 338 174 350 142 350 C 114 350 92 336 78 322 C 66 312 60 298 78 285"
+        stroke="#000000" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Internal Finger Creases -->
+  <path d="M 170 94 C 172 120 168 158 162 185" stroke="#000000" stroke-width="10" stroke-linecap="round" />
+  <path d="M 244 120 C 244 150 238 190 228 225" stroke="#000000" stroke-width="10" stroke-linecap="round" />
+</svg>
